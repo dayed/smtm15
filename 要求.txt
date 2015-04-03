@@ -1,0 +1,18 @@
+根据几个网站，我拼凑了各种部分，结合成了一个首页。请根据我的效果图进行html css js 代码书写。
+
+
+
+1、我引用了目标站：http://www.haituncun.com/ 的很多模块，请引用目标站的body.css进行代码书写，请最大程度做到代码可以重复利用（如js特效部分），书写规范，不沉余无用代码，与目标站css不冲突（因为其他页面我们也引用了目标站css），结构设计合理。
+
+首页引用其他样式元素：
+
+http://www.1688.com/
+http://plas.1688.com/
+http://caigou.1688.com/
+http://bz.1688.com/
+http://steel.1688.com/
+
+http://tese.taobao.com/?
+
+
+2、页面兼容主流浏览器，支持ie8及以上

@@ -1,0 +1,1555 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/haituncun.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body class="cms-home">
+		<div class="header-container">
+			<div class="topbar">
+				<div class="grid-all clearfix header-topbar-info">
+					<p class="left ykg"><a target="_blank">国际运费首重 全场29元起</a></p>
+					<div class="right q-access">
+						<ul>
+							<li>您好，<span id="customerName"></span> 欢迎来到海豚村</li>
+							<li class="topbar-sep logout">|</li>
+							<li class="login-link logout"><a>登录</a></li>
+							<li class="topbar-sep logout">|</li>
+							<li class="reg-link logout"><a>注册</a></li>
+							<li class="topbar-sep">|</li>
+							<li class="weibo"><a target="_blank">官方微博</a></li>
+							<li class="topbar-sep">|</li>
+							<li class="livesvc"><a>在线客服</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="grid-all clearfix">
+					<h1 class="left">
+						<a class="logo">海豚村海淘网站---海外直邮购物</a>
+						<a class="active"><img src="images/v4/active.png"></a>
+					</h1>
+					<a class="svc-cmt" target="_blank">服务承诺</a>
+					<form id="search_mini_form" class="auto-search">
+						<div class="left head-search">
+							<div class="place-holder">搜“可莱丝”试试，正品面膜韩国直邮到家</div>
+							<input class="text-input" id="search" name="q" autocomplete="off">
+							<input class="btn-submit" type="submit" value="搜索">
+							<div class="search-autocomplete" id="search_autocomplete"></div>
+						</div>
+					</form>
+					<div class="right user-entry noLogin">
+						<ul>
+							<li class="item-cart"><a>购物车<b id="cartCount">0</b></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="navigation">
+				<div class="grid-all clearfix">
+					<div class="left kind-drop">
+						<h3>全部商品分类</h3>
+						<ul class="s-menu active" id="s_menu">
+							<li class="parent ymuyin_p">
+								<div class="p-menu">
+									<h2 class="ymuyin"><a>母婴用品</a></h2>
+									<ul class="child clearfix">
+										<li><a>配方奶粉</a></li>
+										<li><a>营养辅食</a></li>
+										<li><a>奶瓶</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-top">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img src="images/Fenlei/L1.jpg">
+											<em class="first emp"><a class="ypeifnf">英国爱他美</a></em>
+											<em class="emp"><a class="ypeifnf">1段</a></em>
+											<em class="emp"><a class="ypeifnf">2段</a></em>
+											<em class="emp"><a class="ypeifnf">3段</a></em>
+											<em class="emp"><a class="ypeifnf">4段</a></em>
+											<em class="emp"><a class="ypeifnf">5段</a></em>
+										</li>
+										<li class="category-326">
+											<strong><a class="ynaiffs">奶粉辅食</a></strong>
+											<em><a class="ypeifnf">配方奶粉</a></em>
+											<span class="ypeifnf-span"></span>
+											<em><a class="yteshunf">特殊奶粉</a></em>
+											<span class="yteshunf-span"></span>
+											<em><a class="yyangnf">羊奶粉</a></em>
+											<span class="yyangnf-span"></span>
+											<em><a class="ymicaif">米粉/菜粉</a></em>
+											<span class="ymicaif-span"></span>
+											<em><a class="yguoniz">果泥/果汁</a></em>
+											<span class="yguoniz-span"></span>
+											<em><a class="ycairni">菜泥/肉泥</a></em>
+											<span class="ycairni-span"></span>
+											<em><a class="ymiantz">面条/粥</a></em>
+											<span class="ymiantz-span"></span>
+											<em><a class="ytongxf">通心粉</a></em>
+											<span class="ytongxf-span"></span>
+											<em><a class="ybbls">宝宝零食</a></em>
+											<span class="ybbls-span"></span>
+										</li>
+										<li class="category-327">
+											<strong><a class="yweiyyp1">喂养用品</a></strong>
+											<em><a class="ynaip">奶瓶奶嘴</a></em>
+											<span class="ynaip-span"></span>
+											<em><a class="yxinaicn">吸奶/储奶器</a></em>
+											<span class="yxinaicn-span"></span>
+											<em><a class="yanfu">安抚用品</a></em>
+											<span class="yanfu-span"></span>
+											<em><a class="yshuihub">水壶水杯</a></em>
+											<span class="yshuihub-span"></span>
+											<em><a class="ywanpcs">碗盘叉勺</a></em>
+											<span class="ywanpcs-span"></span>
+											<em><a class="yweidou">围兜</a></em>
+											<span class="yweidou-span"></span>
+											<em><a class="ywsxd">卫生消毒</a></em>
+											<span class="ywsxd-span"></span>
+											<em><a class="ymoyabg">磨牙饼干</a></em>
+											<span class="ymoyabg-span"></span>
+											<em><a class="yfyrd">乳垫</a></em>
+											<span class="yfyrd-span"></span>
+										</li>
+										<li class="category-328">
+											<strong><a class="yxihuyp">洗护用品</a></strong>
+											<em><a class="yerwq">耳温枪</a></em>
+											<span class="yerwq-span"></span>
+											<em><a class="ybbxiyu">宝宝洗浴</a></em>
+											<span class="ybbxiyu-span"></span>
+											<em><a class="ybbhf">宝宝护肤</a></em>
+											<span class="ybbhf-span"></span>
+											<em><a class="ybbshu">宝宝梳子</a></em>
+											<span class="ybbshu-span"></span>
+											<em><a class="ybbjiaq">宝宝指甲钳</a></em>
+											<span class="ybbjiaq-span"></span>
+										</li>
+										<li class="category-329">
+											<strong><a class="ymamazq">妈妈专区</a></strong>
+											<em><a class="ybeiyunyy">备孕营养</a></em>
+											<span class="ybeiyunyy-span"></span>
+											<em><a class="yyunqiyy">孕期营养</a></em>
+											<span class="yyunqiyy-span"></span>
+											<em><a class="ychhhuif">产后恢复</a></em>
+											<span class="ychhhuif-span"></span>
+											<em><a class="ymamayy">妈妈营养</a></em>
+											<span class="ymamayy-span"></span>
+											<em><a class="yyunmeir">孕妈美容</a></em>
+											<span class="yyunmeir-span"></span>
+										</li>
+										<li class="category-330">
+											<strong><a class="yyinyyy">婴幼营养</a></strong>
+											<em><a class="ydha">DHA/鱼油</a></em>
+											<span class="ydha-span"></span>
+											<em><a class="yweitakw">维他命/矿物质</a></em>
+											<span class="yweitakw-span"></span>
+											<em><a class="yniuchu">牛初乳</a></em>
+											<span class="yniuchu-span"></span>
+											<em><a class="yrutangm">乳糖酶</a></em>
+											<span class="yrutangm-span"></span>
+										</li>
+										<li class="category-517">
+											<strong><a class="yertwj">儿童玩具</a></strong>
+											<em><a class="ymoxwj">模型玩具</a></em>
+											<span class="ymoxwj-span"></span>
+											<em><a class="ymuwanju">木质玩具</a></em>
+											<span class="ymuwanju-span"></span>
+											<em><a class="yyzwj1">益智玩具</a></em>
+											<span class="yyzwj1-span"></span>
+											<em><a class="ybuyiwj">布艺玩具</a></em>
+											<span class="ybuyiwj-span"></span>
+											<em><a class="ymrwj">毛绒玩具</a></em>
+											<span class="ymrwj-span"></span>
+											<em><a class="ydiandche">电动车</a></em>
+											<span class="ydiandche-span"></span>
+											<em><a class="yqita">其他</a></em>
+											<span class="yqita-span"></span>
+										</li>
+										<li class="category-464">
+											<strong><a class="yyinyoufs">婴儿服饰</a></strong>
+											<em><a class="yhayi">哈衣</a></em>
+											<span class="yhayi-span"></span>
+											<em><a class="ytaozh">套装</a></em>
+											<span class="ytaozh-span"></span>
+											<em><a class="yyifu">上装</a></em>
+											<span class="yyifu-span"></span>
+										</li>
+										<li class="category-551">
+											<strong><a class="ybbqinju">宝宝寝居</a></strong>
+											<em><a class="yyinertan">婴儿毯</a></em>
+											<span class="yyinertan-span"></span>
+											<em><a class="yyezfrd">婴儿枕/哺乳垫</a></em>
+											<span class="yyezfrd-span"></span>
+										</li>
+										<li class="category-557">
+											<strong><a class="ybbanquan">宝宝安全</a></strong>
+											<em><a class="yanqjh">安全监护</a></em>
+											<span class="yanqjh-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入母婴用品馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+											<dt><span>热门品牌</span></dt>
+											<dd><a><img src="images/Logo/MYYP_01.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/MYYP_02.jpg"></a></dd>
+											<dd><a><img src="images/Logo/MYYP_03.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/MYYP_04.jpg"></a></dd>
+											<dd><a><img src="images/Logo/MYYP_05.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/MYYP_06.jpg"></a></dd>
+											<dd><a><img src="images/Logo/MYYP_07.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/MYYP_08.jpg"></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="parent yyybaoj_p">
+								<div class="p-menu">
+									<h2 class="yyybaoj"><a>营养保健</a></h2>
+									<ul class="child clearfix">
+										<li><a>儿童营养</a></li>
+										<li><a>减肥瘦身</a></li>
+										<li><a>补血</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-top">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img  src="images/Fenlei/L2.jpg">
+											<em class="first emp"><a class="ypeifnf">胶原蛋白</a></em>
+											<em class="emp"><a class="ypeifnf">德国双心</a></em>
+											<em class="emp"><a class="ypeifnf">澳佳宝</a></em>
+											<em class="emp"><a class="ypeifnf">蔓越莓</a></em>
+											<em class="emp"><a class="ypeifnf">孕妇营养</a></em>
+											<em class="emp"><a class="ypeifnf">深海鱼油</a></em>
+										</li>
+										<li class="category-333">
+											<strong><a class="yyyjk">营养健康</a></strong>
+											<em><a class="ytjiemy">调节免疫</a></em>
+											<span class="ytjiemy-span"></span>
+											<em><a class="ytiaoj3g">调节三高</a></em>
+											<span class="ytiaoj3g-span"></span>
+											<em><a class="ychwyh">肠胃养护</a></em>
+											<span class="ychwyh-span"></span>
+											<em><a class="yhuanjpl">缓解疲劳</a></em>
+											<span class="yhuanjpl-span"></span>
+											<em><a class="ymeiryy">美容养颜</a></em>
+											<span class="ymeiryy-span"></span>
+											<em><a class="yjianf">减肥塑身</a></em>
+											<span class="yjianf-span"></span>
+											<em><a class="yganshyh">肝肾养护</a></em>
+											<span class="yganshyh-span"></span>
+											<em><a class="yshuim">改善睡眠</a></em>
+											<span class="yshuim-span"></span>
+											<em><a class="ygujk1">骨骼健康</a></em>
+											<span class="ygujk1-span"></span>
+											<em><a class="ybuxie1">补铁补血</a></em>
+											<span class="ybuxie1-span"></span>
+											<em><a class="ymingmyz">明目益智</a></em>
+											<span class="ymingmyz-span"></span>
+											<em><a class="ykyhksl">抗氧化/抗衰老</a></em>
+											<span class="ykyhksl-span"></span>
+											<em><a class="yzhuangy">强身壮阳</a></em>
+											<span class="yzhuangy-span"></span>
+											<em><a class="yxinnbh">心脑保护</a></em>
+											<span class="yxinnbh-span"></span>
+											<em><a class="ynanvby">男女备孕</a></em>
+											<span class="ynanvby-span"></span>
+											<em><a class="yertyy">儿童营养</a></em>
+											<span class="yertyy-span"></span>
+											<em><a class="yyunfuyy">孕妇营养</a></em>
+											<span class="yyunfuyy-span"></span>
+											<em><a class="yyundyy">运动营养</a></em>
+											<span class="yyundyy-span"></span>
+											<em><a class="wyztzy">外用止痛消炎</a></em>
+											<span class="wyztzy-span"></span>
+										</li>
+										<li class="category-334">
+											<strong><a class="yyychfen">营养成分</a></strong>
+											<em><a class="yweitakw1">维他命/矿物质</a></em>
+											<span class="yweitakw1-span"></span>
+											<em><a class="ydanbz">蛋白质</a></em>
+											<span class="ydanbz-span"></span>
+											<em><a class="yshenhyy">深海鱼油</a></em>
+											<span class="yshenhyy-span"></span>
+											<em><a class="ybutaozi">葡萄籽</a></em>
+											<span class="ybutaozi-span"></span>
+											<em><a class="yfanqh">番茄红素</a></em>
+											<span class="yfanqh-span"></span>
+											<em><a class="ylxcha">螺旋藻</a></em>
+											<span class="ylxcha-span"></span>
+											<em><a class="yyesuan">叶酸</a></em>
+											<span class="yyesuan-span"></span>
+											<em><a class="yfmq10">辅酶Q10</a></em>
+											<span class="yfmq10-span"></span>
+											<em><a class="ymaka">玛咖</a></em>
+											<span class="ymaka-span"></span>
+											<em><a class="yfengmifj">蜂蜜蜂胶</a></em>
+											<span class="yfengmifj-span"></span>
+											<em><a class="yjydb">胶原蛋白</a></em>
+											<span class="yjydb-span"></span>
+											<em><a class="yddyhtllz">大豆异黄酮/卵磷脂</a></em>
+											<span class="yddyhtllz-span"></span>
+											<em><a class="yssxianw">膳食纤维</a></em>
+											<span class="yssxianw-span"></span>
+											<em><a class="yomega3">Omega-3</a></em>
+											<span class="yomega3-span"></span>
+											<em><a class="yniuchu1">牛初乳</a></em>
+											<span class="yniuchu1-span"></span>
+											<em><a class="yyuganyou">鱼肝油</a></em>
+											<span class="yyuganyou-span"></span>
+											<em><a class="yweigusu">维骨素</a></em>
+											<span class="yweigusu-span"></span>
+											<em><a class="yboniaos">玻尿酸</a></em>
+											<span class="yboniaos-span"></span>
+										</li>
+										<li class="category-556">
+											<strong><a class="ychengr">成人用品</a></strong>
+											<em><a class="ybiyun">安全避孕</a></em>
+											<span class="ybiyun-span"></span>
+											<em><a class="yyanyun">验孕测孕</a></em>
+											<span class="yyanyun-span"></span>
+											<em><a class="yrunhua">人体润滑</a></em>
+											<span class="yrunhua-span"></span>
+											<em><a class="yqingqu">情趣用品</a></em>
+											<span class="yqingqu-span"></span>
+										</li>
+										<li class="category-335">
+											<strong><a class="ybaojqx">保健器械</a></strong>
+											<em><a class="yxieyaji">血压计</a></em>
+											<span class="yxieyaji-span"></span>
+											<em><a class="yxiety">血糖仪</a></em>
+											<span class="yxiety-span"></span>
+											<em><a class="yzfxsq">脂肪显示器</a></em>
+											<span class="yzfxsq-span"></span>
+											<em><a class="ytiwenji">体温计</a></em>
+											<span class="ytiwenji-span"></span>
+											<em><a class="yhuliji">护理机</a></em>
+											<span class="yhuliji-span"></span>
+											<em><a class="ydzyanyun">电子验孕</a></em>
+											<span class="ydzyanyun-span"></span>
+											<em><a class="ygtp">药膏/贴片</a></em>
+											<span class="ygtp-span"></span>
+										</li>
+										<li class="category-336">
+											<strong><a class="yjijiu">救急卫生</a></strong>
+											<em><a class="ycktbd">创可贴/绷带</a></em>
+											<span class="ycktbd-span"></span>
+											<em><a class="ywenchong">蚊虫叮咬</a></em>
+											<span class="ywenchong-span"></span>
+											<em><a class="ysunsxiuf">损伤修复</a></em>
+											<span class="ysunsxiuf-span"></span>
+											<em><a class="yjiatyx">家庭药箱</a></em>
+											<span class="yjiatyx-span"></span>
+										</li>
+										<li class="category-337">
+											<strong><a class="yshiyrq">适用人群</a></strong>
+											<em><a class="yyinyer">婴幼儿</a></em>
+											<span class="yyinyer-span"></span>
+											<em><a class="yertong">儿童</a></em>
+											<span class="yertong-span"></span>
+											<em><a class="ycnnanx">成年男性</a></em>
+											<span class="ycnnanx-span"></span>
+											<em><a class="ycnnvx">成年女性</a></em>
+											<span class="ycnnvx-span"></span>
+											<em><a class="yyunfu">孕妇</a></em>
+											<span class="yyunfu-span"></span>
+											<em><a class="yzln">中老年</a></em>
+											<span class="yzln-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入营养保健馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+											<dt><span>热门品牌</span></dt>
+											<dd><a><img src="images/YYBJ/YYBJ_20150126_01.jpg"></a></dd>
+											<dd class="even"><a><img src="images/YYBJ/YYBJ_20150126_02.jpg"></a></dd>
+											<dd><a><img src="images/YYBJ/YYBJ_20150126_03.jpg"></a></dd>
+											<dd class="even"><a><img src="images/YYBJ/YYBJ_20150126_04.jpg"></a></dd>
+											<dd><a><img src="images/YYBJ/YYBJ_20150126_05.jpg"></a></dd>
+											<dd class="even"><a><img src="images/YYBJ/YYBJ_20150126_06.jpg"></a></dd>
+											<dd><a><img src="images/YYBJ/YYBJ_20150126_07.jpg"></a></dd>
+											<dd class="even"><a><img src="images/YYBJ/YYBJ_20150126_08.jpg"></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="parent ymeiryz_p">
+								<div class="p-menu">
+									<h2 class="ymeiryz"><a>美容药妆</a></h2>
+									<ul class="child clearfix">
+										<li><a>卸妆洁面</a></li>
+										<li><a>补水保湿</a></li>
+										<li><a>眼霜</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-top">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img src="images/Fenlei/L3.jpg">
+											<em class="first emp"><a class="ypeifnf">德国小甘菊</a></em>
+											<em class="emp"><a class="ypeifnf">丝塔芙</a></em>
+											<em class="emp"><a class="ypeifnf">爽肤水</a></em>
+											<em class="emp"><a class="ypeifnf">润唇膏</a></em>
+											<em class="emp"><a class="ypeifnf">面膜</a></em>
+											<em class="emp"><a class="ypeifnf">身体乳</a></em>
+										</li>
+										<li class="category-185">
+											<strong><a class="ymianbhl">面部护理</a></strong>
+											<em><a class="yxiezjm">卸妆洁面</a></em>
+											<span class="yxiezjm-span"></span>
+											<em><a class="yqujzmos">去角质/磨砂</a></em>
+											<span class="yqujzmos-span"></span>
+											<em><a class="ysfsbspw">爽肤水/补水喷雾</a></em>
+											<span class="ysfsbspw-span"></span>
+											<em><a class="yjinghua">精华</a></em>
+											<span class="yjinghua-span"></span>
+											<em><a class="yruyi">乳液</a></em>
+											<span class="yruyi-span"></span>
+											<em><a class="ymians">面霜</a></em>
+											<span class="ymians-span"></span>
+											<em><a class="yyansh">眼霜</a></em>
+											<span class="yyansh-span"></span>
+											<em><a class="yruncg">润唇膏</a></em>
+											<span class="yruncg-span"></span>
+											<em><a class="ymianmo">面膜</a></em>
+											<span class="ymianmo-span"></span>
+											<em><a class="yfsglbb">防晒/隔离/BB霜</a></em>
+											<span class="yfsglbb-span"></span>
+											<em><a class="yhftzlh">护肤套装/礼盒装</a></em>
+											<span class="yhftzlh-span"></span>
+										</li>
+										<li class="category-186">
+											<strong><a class="ycaizh">个人彩妆</a></strong>
+											<em><a class="yzqru">妆前乳</a></em>
+											<span class="yzqru-span"></span>
+											<em><a class="yfendib">粉底/粉饼</a></em>
+											<span class="yfendib-span"></span>
+											<em><a class="ysanmif">散粉/蜜粉</a></em>
+											<span class="ysanmif-span"></span>
+											<em><a class="yzhexiabb">遮瑕膏/BB霜</a></em>
+											<span class="yzhexiabb-span"></span>
+											<em><a class="yyxbiye">眼线笔/眼线液</a></em>
+											<span class="yyxbiye-span"></span>
+											<em><a class="yjiemaog">睫毛膏</a></em>
+											<span class="yjiemaog-span"></span>
+											<em><a class="ychungmi">唇膏/唇蜜</a></em>
+											<span class="ychungmi-span"></span>
+											<em><a class="ymeib">眉笔/眉粉</a></em>
+											<span class="ymeib-span"></span>
+											<em><a class="ymeizgj">美妆小工具</a></em>
+											<span class="ymeizgj-span"></span>
+										</li>
+										<li class="category-187">
+											<strong><a class="yshentihl">身体护理</a></strong>
+											<em><a class="yshentir">身体乳/霜</a></em>
+											<span class="yshentir-span"></span>
+											<em><a class="yshzuhl">手/足护理</a></em>
+											<span class="yshzuhl-span"></span>
+											<em><a class="yyhzz">抑汗走珠</a></em>
+											<span class="yyhzz-span"></span>
+											<em><a class="yshentims">身体磨砂</a></em>
+											<span class="yshentims-span"></span>
+											<em><a class="yanmoy">按摩油</a></em>
+											<span class="yanmoy-span"></span>
+										</li>
+										<li class="category-188">
+											<strong><a class="ynanshl">男士护理</a></strong>
+											<em><a class="ynansxiyu">男士洗浴</a></em>
+											<span class="ynansxiyu-span"></span>
+											<em><a class="ynanshf">男士护肤</a></em>
+											<span class="ynanshf-span"></span>
+											<em><a class="yzhihan">止汗除味</a></em>
+											<span class="yzhihan-span"></span>
+											<em><a class="ytixuyp">剃须用品</a></em>
+											<span class="ytixuyp-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入美容药妆馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+										<dt><span>热门品牌</span></dt>
+										<dd><a><img src="images/Logo/MRYZ_01.jpg"></a></dd>
+										<dd class="even"><a><img src="images/Logo/MRYZ_02.jpg"></a></dd>
+										<dd><a><img src="images/Logo/MRYZ_03.jpg"></a></dd>
+										<dd class="even"><a><img src="images/Logo/MRYZ_04.jpg"></a></dd>
+										<dd><a><img src="images/Logo/MRYZ_05.jpg"></a></dd>
+										<dd class="even"><a><img src="images/Logo/MRYZ_06.jpg"></a></dd>
+										<dd><a><img src="images/Logo/MRYZ_07.jpg"></a></dd>
+										<dd class="even"><a><img src="images/Logo/MRYZ_08.jpg"></a></dd>
+										</dl>
+									</div>
+								</div>
+							</li>
+							<li class="parent yrybh_p">
+								<div class="p-menu">
+									<h2 class="yrybh"><a>日用百货</a></h2>
+									<ul class="child clearfix">
+										<li><a>洗发护发</a></li>
+										<li><a>沐浴用品</a></li>
+										<li><a>牙膏</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-top">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img src="images/Fenlei/L4.jpg">
+											<em class="first emp"><a class="ypeifnf">防脱洗发水</a></em>
+											<em class="emp"><a class="ypeifnf">修复沐浴露</a></em>
+											<em class="emp"><a class="ypeifnf">女性洗液</a></em>
+											<em class="emp"><a class="ypeifnf">姨妈巾</a></em>
+										</li>
+										<li class="category-238">
+											<strong><a class="ymuyuyp">沐浴用品</a></strong>
+											<em><a class="ymuyulu">沐浴露</a></em>
+											<span class="ymuyulu-span"></span>
+											<em><a class="ymuyuz">沐浴皂</a></em>
+											<span class="ymuyuz-span"></span>
+											<em><a class="yyuyan">浴盐</a></em>
+											<span class="yyuyan-span"></span>
+											<em><a class="ymaoyuj">毛巾浴巾</a></em>
+											<span class="ymaoyuj-span"></span>
+										</li>
+										<li class="category-242">
+											<strong><a class="yxifahuf">洗发护发</a></strong>
+											<em><a class="yxifash">洗发水</a></em>
+											<span class="yxifash-span"></span>
+											<em><a class="yhufasu">护发素</a></em>
+											<span class="yhufasu-span"></span>
+											<em><a class="yfamo">发膜</a></em>
+											<span class="yfamo-span"></span>
+											<em><a class="yjingy">精油/护发膏</a></em>
+											<span class="yjingy-span"></span>
+											<em><a class="yzaoxing">造型</a></em>
+											<span class="yzaoxing-span"></span>
+										</li>
+										<li class="category-246">
+											<strong><a class="ykouqhl">口腔护理</a></strong>
+											<em><a class="yyagaof">牙膏/牙粉</a></em>
+											<span class="yyagaof-span"></span>
+											<em><a class="yyaxiansh">牙刷/牙线</a></em>
+											<span class="yyaxiansh-span"></span>
+											<em><a class="yshuat">刷头</a></em>
+											<span class="yshuat-span"></span>
+											<em><a class="ysks">漱口水</a></em>
+											<span class="ysks-span"></span>
+										</li>
+										<li class="category-251">
+											<strong><a class="ynvxyp">女性用品</a></strong>
+											<em><a class="ywsjin">卫生巾</a></em>
+											<span class="ywsjin-span"></span>
+											<em><a class="ywsmian">卫生棉条</a></em>
+											<span class="ywsmian-span"></span>
+											<em><a class="ywshudian">卫生护垫</a></em>
+											<span class="ywshudian-span"></span>
+											<em><a class="ysimiyej">私密洗液/湿巾</a></em>
+											<span class="ysimiyej-span"></span>
+										</li>
+										<li class="category-872">
+											<strong><a class="yqingjie">清洁用品</a></strong>
+											<em><a class="yquchong">驱虫用品</a></em>
+											<span class="yquchong-span"></span>
+											<em><a class="yxishouy">洗手液</a></em>
+											<span class="yxishouy-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入日用百货馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+											<dt><span>热门品牌</span></dt>
+											<dd><a><img src="images/Logo/RYBH_01.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/RYBH_02.jpg"></a></dd>
+											<dd><a><img src="images/Logo/RYBH_03.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/RYBH_04.jpg"></a></dd>
+											<dd><a><img src="images/Logo/RYBH_05.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/RYBH_06.jpg"></a></dd>
+											<dd><a><img src="images/Logo/RYBH_07.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/RYBH_08.jpg"></a></dd>
+										</dl>
+									</div>
+									<a class="big-menu" target="_blank"><img src="images/Fenlei/Riyong.jpg"></a>
+								</div>
+							</li>
+							<li class="parent yjiajucw_p">
+								<div class="p-menu">
+									<h2 class="yjiajucw"><a>家居厨卫</a></h2>
+									<ul class="child clearfix">
+										<li><a>烹饪锅具</a></li>
+										<li><a>滤水壶</a></li>
+										<li><a>刀具</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-bottom">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img src="images/Fenlei/L5.jpg">
+											<em class="first emp"><a class="ypeifnf">滤水壶</a></em>
+											<em class="emp"><a class="ypeifnf">平底锅</a></em>
+											<em class="emp"><a class="ypeifnf">床品套件</a></em>
+										</li>
+										<li class="category-273">
+											<strong><a class="ychufang">厨房用品</a></strong>
+											<em><a class="yguoju">烹饪锅具</a></em>
+											<span class="yguoju-span"></span>
+											<em><a class="ydaojcb">刀剪菜板</a></em>
+											<span class="ydaojcb-span"></span>
+											<em><a class="ydaocha">刀叉组合</a></em>
+											<span class="ydaocha-span"></span>
+											<em><a class="yqitacj">其他厨房用具</a></em>
+											<span class="yqitacj-span"></span>
+											<em><a class="ylshxin">滤水壶/滤芯</a></em>
+											<span class="ylshxin-span"></span>
+											<em><a class="yshuijiuj">水具酒具</a></em>
+											<span class="yshuijiuj-span"></span>
+											<em><a class="yzhuotbu">桌布/台布</a></em>
+											<span class="yzhuotbu-span"></span>
+										</li>
+										<li class="category-1208">
+											<strong><a class="kqjh">空气净化</a></strong>
+											<em><a class="kqjhq">空气净化器</a></em>
+											<span class="kqjhq-span"></span>
+										</li>
+										<li class="category-274">
+											<strong><a class="ywoshiyp">卧室用品</a></strong>
+											<em><a class="ychtaoj">床品套件</a></em>
+											<span class="ychtaoj-span"></span>
+											<em><a class="yshuzi">精品梳</a></em>
+											<span class="yshuzi-span"></span>
+											<em><a class="yxxlazhu">香薰/蜡烛</a></em>
+											<span class="yxxlazhu-span"></span>
+											<em><a class="ynaozh">闹钟</a></em>
+											<span class="ynaozh-span"></span>
+											<em><a class="yzdkdbz">坐垫/靠垫/抱枕</a>
+											</em><span class="yzdkdbz-span"></span>
+										</li>
+										<li class="category-569">
+											<strong><a class="ydengju">灯具装饰</a></strong>
+											<em><a class="yzmdj">照明灯具</a>
+											</em><span class="yzmdj-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入家居厨卫馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+											<dt><span>热门品牌</span></dt>
+											<dd><a><img src="images/Logo/JJCW_01.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/JJCW_02.jpg"></a></dd>
+											<dd><a><img src="images/Logo/JJCW_03.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/JJCW_04.jpg"></a></dd>
+											<dd><a><img src="images/Logo/JJCW_05.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/JJCW_06.jpg"></a></dd>
+											<dd><a><img src="images/Logo/JJCW_07.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/JJCW_08.jpg"></a></dd>
+										</dl>
+									</div>
+									<a class="big-menu" target="_blank"><img src="images/Fenlei/Jiaju20150311.jpg"></a>
+								</div>
+							</li>
+							<li class="parent yshipin_p">
+								<div class="p-menu">
+									<h2 class="yshipin"><a>食品精选</a></h2>
+									<ul class="child clearfix">
+										<li><a>荷兰名茶</a></li>
+										<li><a>香脆薯片</a></li>
+										<li><a>咖啡</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-bottom">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img src="images/Fenlei/L6.jpg">
+											<em class="first emp"><a class="ypeifnf">华夫饼</a></em>
+											<em class="emp"><a class="ypeifnf">减肥代餐</a></em>
+											<em class="emp"><a class="ypeifnf">果泥果汁</a></em>
+											<em class="emp"><a class="ypeifnf">有机零食</a></em>
+											<em class="emp"><a class="ypeifnf">美味糖果</a></em>
+											<em class="emp"><a class="ypeifnf">香浓咖啡</a></em>
+										</li>
+										<li class="category-293">
+											<strong><a class="ycha">茶</a></strong>
+											<em><a class="ylvcha">绿茶</a></em>
+											<span class="ylvcha-span"></span>
+											<em><a class="yhongcha">红茶</a></em>
+											<span class="yhongcha-span"></span>
+											<em><a class="yhuaguoc">花茶/果茶</a></em>
+											<span class="yhuaguoc-span"></span>
+											<em><a class="yzhkw">综合口味</a></em>
+											<span class="yzhkw-span"></span>
+										</li>
+										<li class="category-294">
+											<strong><a class="ykafei">咖啡</a></strong>
+											<em><a class="ysurong">速溶</a></em>
+											<span class="ysurong-span"></span>
+											<em><a class="ylafdou">咖啡豆</a></em>
+											<span class="ylafdou-span"></span>
+											<em><a class="ykaffen">咖啡粉</a></em>
+											<span class="ykaffen-span"></span>
+										</li>
+										<li class="category-309">
+											<strong><a class="yzaocan">营养早餐</a></strong>
+											<em><a class="ymaipian">麦片</a></em>
+											<span class="ymaipian-span"></span>
+										</li>
+										<li class="category-295">
+											<strong><a class="ylingshi">零食</a></strong>
+											<em><a class="yqkl">巧克力</a></em>
+											<span class="yqkl-span"></span>
+											<em><a class="ybingan">饼干</a></em>
+											<span class="ybingan-span"></span>
+											<em><a class="ypenghua">膨化食品</a></em>
+											<span class="ypenghua-span"></span>
+											<em><a class="yguoni">果泥/果汁</a></em>
+											<span class="yguoni-span"></span>
+											<em><a class="ytangguo">糖果</a></em>
+											<span class="ytangguo-span"></span>
+										</li>
+										<li class="category-782">
+											<strong><a class="ydaican">营养代餐</a></strong>
+											<em><a class="yqkl3">巧克力</a></em>
+											<span class="yqkl3-span"></span>
+											<em><a class="ynaixi">奶昔</a></em>
+											<span class="ynaixi-span"></span>
+										</li>
+										<li class="category-838">
+											<strong><a class="shengxian">生鲜食品</a></strong><em><a class="huotui">火腿腊肉</a></em>
+											<span class="huotui-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入食品精选馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+											<dt><span>热门品牌</span></dt>
+											<dd><a><img src="images/Logo/SPJX_01.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/SPJX_02.jpg"></a></dd>
+											<dd><a><img src="images/Logo/SPJX_03.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/SPJX_04.jpg"></a></dd>
+											<dd><a><img src="images/Logo/SPJX_05.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/SPJX_06.jpg"></a></dd>
+											<dd><a><img src="images/Logo/SPJX_07.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/SPJX_08.jpg"></a></dd>
+										</dl>
+									</div>
+									<a class="big-menu" target="_blank"><img src="images/Fenlei/Shipin.jpg"></a>
+								</div>
+							</li>
+							<li class="parent yshumacp_p">
+								<div class="p-menu">
+									<h2 class="yshumacp"><a>数码产品</a></h2>
+									<ul class="child clearfix">
+										<li><a>穿戴设备</a></li>
+										<li><a>数码配件</a></li>
+										<li><a>手机</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-bottom">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img src="images/Fenlei/L7.jpg">
+											<em class="first emp"><a class="ypeifnf">Nexus5</a></em>
+											<em class="emp"><a class="ypeifnf">索尼手机</a></em>
+											<em class="emp"><a class="ypeifnf">智能手表</a></em>
+											<em class="emp"><a class="ypeifnf">蓝牙音箱</a></em>
+											<em class="emp"><a class="ypeifnf">蓝牙耳机</a></em>
+											<em class="emp"><a class="ypeifnf">黑莓手机</a></em>
+										</li>
+										<li class="category-566">
+											<strong><a class="yshouji">手机通讯</a></strong>
+											<em><a class="yshouji1">手机</a></em>
+											<span class="yshouji1-span"></span>
+										</li>
+										<li class="category-789">
+											<strong><a class="yshumapj">数码配件</a></strong>
+											<em><a class="yyinx">音箱</a></em>
+											<span class="yyinx-span"></span>
+											<em><a class="yerji">耳机</a></em>
+											<span class="yerji-span"></span>
+										</li>
+										<li class="category-791">
+											<strong><a class="yznsbei">智能设备</a></strong>
+											<em><a class="yznsbiao">智能手表</a></em>
+											<span class="yznsbiao-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入数码产品馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+											<dt><span>热门品牌</span></dt>
+											<dd><a><img src="images/Logo/SM_01.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/SM_02.jpg"></a></dd>
+											<dd><a><img src="images/Logo/SM_03.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/SM_04.jpg"></a></dd>
+											<dd><a><img src="images/Logo/SM_05.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/SM_06.jpg"></a></dd>
+										</dl>
+									</div>
+									<a class="big-menu" target="_blank"><img src="images/F7/yotaphone2-2.jpg"></a>
+								</div>
+							</li>
+							<li class="parent yxiangb_p">
+								<div class="p-menu last-child-p-menu">
+									<h2 class="yxiangb"><a>箱包</a></h2>
+									<ul class="child clearfix">
+										<li><a>行李箱</a></li>
+										<li><a>双肩包</a></li>
+										<li><a>洗漱包</a></li>
+									</ul>
+								</div>
+								<div class="hidepop hidepop-bottom">
+									<ul class="child-menu">
+										<li class="child-menu-title">
+											<img src="images/Fenlei/L8.jpg">
+										</li>
+										<li class="category-539">
+											<strong><a class="ygnxbao">功能箱包</a></strong>
+											<em><a class="yxlx">行李箱</a></em>
+											<span class="yxlx-span"></span>
+											<em><a class="ysjianb">双肩包</a></em>
+											<span class="ysjianb-span"></span>
+											<em><a class="yxishub">洗漱包</a></em>
+											<span class="yxishub-span"></span>
+											<em><a class="ytibao">提包</a></em>
+											<span class="ytibao-span"></span>
+										</li>
+									</ul>
+									<div class="child-menu-side">
+										<a class="enter_pro">进入箱包馆<span>&nbsp;&gt;</span></a>
+										<dl class="hot-brand">
+											<dt><span>热门品牌</span></dt>
+											<dd><a><img src="images/Logo/XB_01.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/XB_02.jpg"></a></dd>
+											<dd><a><img src="images/Logo/XB_03.jpg"></a></dd>
+											<dd class="even"><a><img src="images/Logo/XB_04.jpg"></a></dd>
+											<dd><a><img src="images/Logo/XB_05.jpg"></a></dd>
+										</dl>
+									</div>
+									<a class="big-menu" target="_blank"><img src="images/Fenlei/Xiangbao.jpg"></a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<ul id="nav" class="left main-list">
+						<li id="homepage" class="item current"><a>首页</a></li>
+						<li class="item">
+							<a>欧洲馆<p class="triangle"></p></a>
+							<ul class="sub-catalog-panel">
+								<li class="sub-catalog-title flag-GB">
+									<a>英国TLC药店</a>
+									<a>英国BFSO日用品百货商城</a>
+									<a>英国SC百年香薰蜡烛世家</a>
+									<p class="flag"></p>
+								</li>
+								<li class="sub-catalog-title flag-DE">
+									<a>德国BA保镖药房</a>
+									<a>德国EM居家百货</a>
+									<a>德国UKA优卡有机生活馆</a>
+									<a>德国HCP品质生活馆</a>
+									<p class="flag"></p>
+								</li>
+								<li class="sub-catalog-title flag-NL">
+									<a>荷兰布提小店HB</a>
+									<p class="flag"></p>
+								</li>
+								<li class="sub-catalog-title flag-FR">
+									<a>法国1001健康生活馆</a>
+									<p class="flag"></p>
+								</li>
+								<li class="sub-catalog-title last flag-BE">
+									<a>比利时FL在线药房</a>
+									<p class="flag"></p>
+								</li>
+							</ul>
+						</li>
+						<li class="item">
+							<a>澳洲馆<p class="triangle"></p></a>
+							<ul class="sub-catalog-panel">
+								<li class="sub-catalog-title flag-AU">
+									<a>澳洲PO药品连锁店</a>
+									<p class="flag"></p>
+								</li>
+								<li>
+									<a target="_blank"><img src="images/v4/menu_ad1.jpg"></a>
+								</li>
+							</ul>
+						</li>
+						<li class="item">
+							<a>美洲馆<p class="triangle"></p></a>
+							<ul class="sub-catalog-panel">
+								<li class="sub-catalog-title flag-US">
+									<a>美国WNC保健品专营店</a>
+									<a>Melissa Doug玩具店</a>
+									<p class="flag"></p>
+								</li>
+								<li>
+									<a target="_blank"><img src="images/AD/DHA.jpg"></a>
+								</li>
+							</ul>
+						</li>
+						<li class="item">
+							<a>亚洲馆<p class="triangle"></p></a>
+							<ul class="sub-catalog-panel">
+								<li class="sub-catalog-title flag-KR">
+									<a>韩国L&P Cosmetic</a>
+									<p class="flag"></p>
+								</li>
+								<li class="sub-catalog-title flag-HK">
+									<a>EXPANSYS数码商城</a>
+									<p class="flag"></p>
+								</li>
+								<li>
+									<a target="_blank"><img src="images/AD/Mediheal0320.jpg"></a>
+								</li>
+							</ul>
+						</li>
+						<li>|</li>
+						<li class="level0 nav-5 item ypeifnf">
+							<a target="_blank">品牌推荐</a>
+						</li>
+						<li class="level0 nav-5 item country">
+							<a target="_blank"><span>海外电商</span></a>
+						</li>
+						<li class="level0 nav-5 item brand">
+							<a style="color:red;font-weight:700" target="_blank"><span>海豚说</span></a>
+							<em style="display: block; width: 22px; height: 14px; background: url('images/v4/top_new.gif'); position: absolute; right: 5px; top: -4px;"></em>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="big-slider">
+			<div class="slider-handler" id="slider_handler">
+				<div act="left" class="left-handler"></div>
+				<div act="right" class="right-handler"></div>
+				<ul class="slidesjs-pagination">
+					<li>0</li>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+				</ul>
+				<div class="slider scale" style="background-color:#7AB7CC">
+					<div class="slide">
+						<div class="inner">
+							<a><img src="images/lunbotu/LBT1_20150331.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="slider scale" style="background-color:#394044">
+					<div class="slide">
+						<div class="inner">
+							<a><img src="images/lunbotu/LBT1_20150330.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="slider scale" style="background-color:#FCC050">
+					<div class="slide">
+						<div class="inner">
+							<a><img src="images/lunbotu/LBT3_20150330.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="slider scale" style="background-color:#80A2D1">
+					<div class="slide">
+						<div class="inner">
+							<a><img src="images/lunbotu/LBT4_20150330.jpg"></a>
+						</div>
+					</div>
+				</div>
+				<div class="slider scale" style="background-color:#DEF1F6">
+					<div class="slide">
+						<div class="inner">
+							<a><img src="images/lunbotu/LBT5_20150327.jpg"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="features">
+				<a><img src="images/AD/R3_20150206.jpg"></a>
+				<a><img src="images/AD/R2_20150330.jpg"></a>
+				<a><img src="images/AD/R3.jpg"></a>
+			</div>
+			<div class="ac-infos-box">
+				<ul class="ac-infos clearfix">
+					<li><a><img src="images/AD/D220150331.jpg"></a></li>
+					<li><a><img src="images/AD/D0120150331.jpg"></a></li>
+					<li><a><img src="images/AD/D320150331.jpg"></a></li>
+					<li><a><img src="images/AD/D4.jpg"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="spec-block">
+			<div 提供货源 class="m">
+				<div class="h">
+					<h3><i class="iconfont"></i>提供货源</h3>
+					<ul>
+						<li class="active"><a data-target="#韩国商品" data-toggle="tab">韩国商品</a></li>
+						<li><a data-target="#延边美食" data-toggle="tab">延边美食</a></li>
+						<li><a data-target="#母婴用品" data-toggle="tab">母婴用品</a></li>
+						<li><a data-target="#家居用品" data-toggle="tab">家居用品</a></li>
+						<li><a data-target="#韩国食品" data-toggle="tab">韩国食品</a></li>
+					</ul>
+				</div>
+				<div class="b tab-content">
+					<div class="tab-pane active" id="韩国商品">
+						<div 分类介绍 class="left">
+							<h3>韩国商品</h3>
+							<p>延边电商园提供优价韩国商品货源，保证所有商品采自韩国本土，无论购买数量多少一律批发价供货代理商。</p>
+							<div class="info">90天内交易笔数：<strong>32988</strong><span>排名第<em>2</em>位</span></div>
+							<table>
+								<tr>
+									<td rowspan="2">栏目概括</td>
+									<td>商品数</td>
+									<td>会员数</td>
+									<td>月产量</td>
+								</tr>
+								<tr>
+									<td>855</td>
+									<td>13</td>
+									<td>460万</td>
+								</tr>
+							</table>
+							<ul class="clearfix">
+								<li><a>栏目小分类</a></li>
+							</ul>
+							<div class="tags">
+								<a>个人洗护</a>
+								<a>口腔护理</a>
+								<a>美容护肤</a>
+								<a>男士护理</a>
+								<a>彩妆</a>
+								<a>韩国香水</a>
+								<a>洗头染发</a>
+								<a>健身用品</a>
+							</div>
+						</div>
+						<div 商品列表>
+							<h3>最新商品<a class="right">更多</a></h3>
+							<ul>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+								<li>
+									<img src="images/纸箱.png">
+									<a>淘宝你好哈哈哈哈哈哈哈哈哈哈哈哈哈哈</a>
+									<p>￥0.8<del>1.2元</del></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-pane" id="延边美食">延边美食</div>
+					<div class="tab-pane" id="母婴用品">母婴用品</div>
+					<div class="tab-pane" id="家居用品">家居用品</div>
+					<div class="tab-pane" id="韩国食品">韩国食品</div>
+				</div>
+			</div>
+		</div>
+		<div class="spec-block clearfix">
+			<div 包装服务 class="m">
+				<div class="h">
+					<h3><i class="iconfont"></i>包装服务</h3>
+					<ul>
+						<li><a>可自提包装材料</a></li>
+						<li><a>可邮寄</a></li>
+						<li><a>可代发</a></li>
+					</ul>
+				</div>
+				<div class="b">
+					<ul class="clearfix">
+						<li class="active"><a data-target="#纸箱" data-toggle="tab">纸箱</a></li>
+						<li><a data-target="#飞机盒子" data-toggle="tab">飞机盒</a></li>
+						<li><a data-target="#快递袋" data-toggle="tab">快递袋</a></li>
+						<li><a data-target="#包装胶带" data-toggle="tab">包装胶带</a></li>
+						<li><a data-target="#保温箱" data-toggle="tab">保温箱</a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="纸箱">
+							<img src="images/纸箱.png">
+							<dl>
+								<dt>规格( mm )</dt>
+								<dd class="clearfix">
+									<a>5号(290*170*190)</a>
+									<a>3号(430*210*270)</a>
+									<a>6号(260*150*180)</a>
+									<a>4号(350*190*230)</a>
+									<a>2号(530*230*290)</a>
+									<a>12号(130*80*90)</a>
+									<a>11号(145*85*105)</a>
+									<a>10号(175*95*115)</a>
+									<a class="more">展开全部</a>
+								</dd>
+								<dt>厚度</dt>
+								<dd class="clearfix">
+									<a>三层</a>
+									<a>五层</a>
+								</dd>
+							</dl>
+							<button>查看结果</button>
+						</div>
+						<div class="tab-pane" id="飞机盒子">飞机盒子</div>
+						<div class="tab-pane" id="快递袋">快递袋</div>
+						<div class="tab-pane" id="包装胶带">包装胶带</div>
+						<div class="tab-pane" id="保温箱">保温箱</div>
+					</div>
+				</div>
+			</div>
+			<div 快递服务 class="m">
+				<div class="h">
+					<h3><i class="iconfont"></i>快递服务</h3>
+					<ul>
+						<li class="active" data-target="#中通" data-toggle="tab"><a>中通</a></li>
+						<li><a data-target="#韵达" data-toggle="tab">韵达</a></li>
+						<li><a data-target="#汇通" data-toggle="tab">汇通</a></li>
+						<li><a data-target="#邮政EMS" data-toggle="tab">邮政EMS</a></li>
+						<li><a data-target="#顺丰" data-toggle="tab">顺丰</a></li>
+						<li><a data-target="#申通" data-toggle="tab">申通</a></li>
+						<li><a data-target="#圆通" data-toggle="tab">圆通</a></li>
+					</ul>
+				</div>
+				<div class="b tab-content">
+					<div class="tab-pane active" id="中通">
+						<table>
+							<thead>
+								<tr>
+									<td>地区<span>运单费:3源，首重续重一个价钱</span></td>
+									<td>价格</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+									</td>
+									<td>8元</td>
+								</tr>
+								<tr>
+									<td>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+									</td>
+									<td>8元</td>
+								</tr>
+								<tr>
+									<td>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+									</td>
+									<td>8元</td>
+								</tr>
+								<tr>
+									<td>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+									</td>
+									<td>8元</td>
+								</tr>
+								<tr>
+									<td>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+									</td>
+									<td>8元</td>
+								</tr>
+								<tr>
+									<td>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+									</td>
+									<td>8元</td>
+								</tr>
+								<tr>
+									<td>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+										<a>吉林省、</a>
+									</td>
+									<td>8元</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="more">展开全部</div>
+					</div>
+					<div class="tab-pane" id="韵达">韵达</div>
+					<div class="tab-pane" id="汇通">汇通</div>
+					<div class="tab-pane" id="邮政EMS">邮政EMS</div>
+					<div class="tab-pane" id="顺丰">顺丰</div>
+					<div class="tab-pane" id="申通">申通</div>
+					<div class="tab-pane" id="圆通">圆通</div>
+				</div>
+			</div>
+		</div>
+		<div class="spec-block" id="kids">
+			<div class="h2 clearfix">
+				<h2><a class="title">这里是栏目标题</a></h2>
+				<b>KIDS & BABY</b>
+				<a class="right">MORE&nbsp;&nbsp;<span class="more-icon">&gt;</span></a>
+				<a class="right">栏目五</a>
+				<a class="right">栏目四</a>
+				<a class="right">栏目三</a>
+				<a class="right">栏目二</a>
+				<a class="right last">栏目一</a>
+			</div>
+			<ul class="items-list clearfix">
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+			</ul>
+		</div>
+		<div class="spec-block" id="nutrition">
+			<div class="h2 clearfix">
+				<h2><a class="title">栏目标题</a></h2>
+				<b>NUTRITION & HEALTH CARE</b>
+				<a class="right">MORE&nbsp;&nbsp;<span class="more-icon">&gt;</span></a>
+				<a class="right">栏目五</a>
+				<a class="right">栏目四</a>
+				<a class="right">栏目三</a>
+				<a class="right">栏目二</a>
+				<a class="right last">栏目一</a>
+			</div>
+			<ul class="items-list clearfix">
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+				<li>
+					<div class="pic-wrap">
+						<a><img src="images/taobao.jpg"></a>
+						<a class="direct-link">直达链接</a>
+					</div>
+					<p class="title"><a>蜘蛛侠透气卡通休闲鞋</a></p>
+					<p class="sub-title"><a>男童的最爱</a></p>
+					<p class="price">¥<em>68.01</em><span>4.6折</span></p>
+					<p class="last-line"><del>¥<em>148.00</em></del> | 剩余<em>990</em>件</p>
+				</li>
+			</ul>
+		</div>
+		<div class="keymsg">
+			<div class="grid-all">
+				<a class="left zp">正品保证</a>
+				<a class="left zy">海外同价直邮</a>
+				<a class="left dhb">多种货币支付</a>
+				<a class="left bt">7天包退</a>
+				<a class="left wp">15日晚到即赔</a>
+				<a class="left yb">送运保</a>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="grid-all clearfix">
+				<ul class="left">
+					<li class="column left">
+						<h6>帮助中心</h6>
+						<ul>
+							<li><a>购物流程</a></li>
+							<li class="coin"><a>海豚币玩法</a></li>
+							<li><a>关税&清关</a></li>
+							<li><a>身份证报关</a></li>
+							<li><a>运费计算表</a></li>
+						</ul>
+					</li>
+					<li class="column left">
+						<h6>支付与物流</h6>
+						<ul>
+							<li><a>关于价格</a></li>
+							<li><a>关于支付</a></li>
+							<li><a>关于物流</a></li>
+							<li><a>关于优惠券</a></li>
+							<li><a>FAQ</a></li>
+						</ul>
+					</li>
+					<li class="column left">
+						<h6>售后服务</h6>
+						<ul>
+							<li><a>退货退款流程</a></li>
+							<li><a>退货退款政策</a></li>
+							<li><a>如何索取发票</a></li>
+						</ul>
+					</li>
+					<li class="column left">
+						<h6>关于我们</h6>
+						<ul>
+							<li><a>关于海豚村</a></li>
+							<li><a>联系我们</a></li>
+						</ul>
+					</li>
+					<li class="column left">
+						<h6>关注海豚村</h6>
+						<ul>
+							<li><a>海豚村新浪微博</a></li>
+							<li><a>海豚村公共微信</a></li>
+						</ul>
+					</li>
+					<li class="column left">
+						<h6>在线客服</h6>
+						<ul>
+							<li><a>点击进入在线咨询</a></li>
+							<li>09:00-21:00(周一至周日)</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="right qrcode"></div>
+				<div class="crdc">
+					<div class="copyright">
+						<span>COPYRIGHT © 2013-2015 All Rights Reserved. 粤ICP备 13081207号-1</span>
+					</div>
+					<div class="dib-wrap dc">
+						<a 许可证 class="dib" target="_blank"><img src="images/new/f1.png"></a>
+						<a 许可证 class="dib" target="_blank"><img src="images/new/f2.png"></a>
+						<a 许可证 class="dib" target="_blank"><img src="images/new/f3.png"></a>
+						<a 许可证 class="dib" target="_blank"><img src="images/new/f4.png"></a>
+						<a 许可证 class="dib" target="_blank"><img src="images/new/f5.png"></a>
+						<a 许可证 class="dib" target="_blank"><img src="images/new/f6.png"></a>
+						<a 许可证 class="dib" target="_blank"><img src="images/new/f7.png"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/htcMain.min.js"></script>
+		<script src="js/tab.min.js"></script>
+	</body>
+</html>
