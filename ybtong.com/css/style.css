@@ -1,0 +1,372 @@
+.navigation {
+	background-color: #FFF;
+	border-top-color: #DDD;
+}
+.navigation .main-list li a {
+	color: #333;
+}
+.navigation .main-list li:hover a {
+	color: #09C;
+}
+.navigation .main-list li.current {
+	background-color: #FFF;
+}
+.navigation .main-list li.current a {
+	border-bottom: 3px solid;
+	color: #09C;
+	height: 33px;
+}
+.items-list {
+	border-top: 3px solid;
+	padding: 4px 2px;
+}
+#kids .items-list {
+	border-top-color: #FF7F66;
+}
+#nutrition .items-list {
+	border-top-color: #62B438;
+}
+.items-list li {
+	background-color: #FFF;
+	border: 1px solid #E8E8E8;
+	float: left;
+	height: 310px;
+	margin: 0 -1px -1px 0;
+	padding: 20px 13px 24px;
+	width: 210px;
+}
+.items-list .pic-wrap {
+	position: relative;
+}
+.items-list .pic-wrap img {
+	background-color: #FFF;
+	padding: 15px;
+	vertical-align: top;
+}
+.items-list .direct-link {
+	background-color: #848484;
+	bottom: 0;
+	color: #FFF;
+	display: none;
+	line-height: 22px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+.items-list p {
+	line-height: 22px;
+	padding: 0 5px;
+}
+.items-list .title {
+	margin-top: 7px;
+}
+.items-list .title a {
+	color: #333;
+}
+.items-list .sub-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.items-list .sub-title a {
+	color: #999;
+}
+.items-list .price {
+	color: #F40;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.items-list .price em {
+	font: 700 20px Verdana;
+	letter-spacing: -1px;
+	margin: 0 4px;
+}
+.items-list .price span {
+	background-color: #777;
+	bottom: 3px;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 1px 2px;
+	position: relative;
+}
+.items-list .last-line {
+	color: #999;
+	margin-top: 2px;
+}
+.items-list .last-line em {
+	font-weight: 700;
+}
+.items-list li:hover {
+	background-color: #F1F1F1;
+}
+.items-list li:hover .direct-link {
+	display: block;
+}
+.spec-block .m {
+	background-color: #FFF;
+	border: 1px solid #E9E9E9;
+	border-bottom-color: #CCC;
+	color: #333;
+	font-family: 'Microsoft Yahei';
+	margin-top: 40px;
+}
+.spec-block .m a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+}
+.spec-block .m .tab-pane {
+	display: none;
+}
+.spec-block .m .tab-pane.active {
+	display: block;
+}
+.spec-block .m .h {
+	border-bottom: 2px solid #006CE2;
+	height: 20px;
+	padding: 14px 0 13px 20px;
+}
+.spec-block .m .h h3 {
+	color: #006CE2;
+	float: left;
+	font-size: 16px;
+	line-height: 20px;
+}
+.spec-block .m .h .iconfont {
+	margin-right: 8px;
+}
+.spec-block .m .h ul {
+	float: right;
+	list-style: none;
+}
+.spec-block .m .h li {
+	float: left;
+}
+.m[提供货源] .h li {
+	color: #555;
+	margin: 0 12px;
+	padding: 0 2px 1px;
+}
+.m[提供货源] .h .active {
+	border-bottom: 1px solid;
+	color: #027CFF;
+}
+.m[提供货源] .tab-pane > div {
+	padding: 20px;
+}
+.m[提供货源] .b h3 {
+	border-left: 3px solid #3278F2;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 14px;
+	margin-bottom: 20px;
+	padding-left: 7px;
+}
+.m[提供货源] .b h3 a {
+	color: #027CFF;
+	font-weight: 400;
+}
+.m[提供货源] [分类介绍] {
+	width: 354px;
+}
+.m[提供货源] [分类介绍] p {
+	line-height: 20px;
+	text-indent: 2em;
+}
+.m[提供货源] [分类介绍] .info {
+	margin: 15px 0;
+}
+.m[提供货源] [分类介绍] .info strong {
+	font-weight: 700;
+}
+.m[提供货源] [分类介绍] .info span {
+	background-color: #FEF9F6;
+	border: 1px solid #FEDDD6;
+	margin-left: 10px;
+	padding: 0 4px;
+}
+.m[提供货源] [分类介绍] .info em {
+	color: #F00;
+}
+.m[提供货源] [分类介绍] table {
+	text-align: center;
+	width: 100%;
+}
+.m[提供货源] [分类介绍] td {
+	border: 1px solid #DDD;
+	padding: 5px 0;
+}
+.m[提供货源] [分类介绍] ul {
+	border-bottom: 1px solid #DDD;
+	margin: 10px 0;
+}
+.m[提供货源] [分类介绍] li {
+	float: left;
+	padding: 15px 0;
+}
+.m[提供货源] [分类介绍] ul a {
+	background-color: #DE4756;
+	border-radius: 3px;
+	color: #FFF;
+	padding: 2px 6px;
+}
+.m[提供货源] [分类介绍] .tags a {
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 27px;
+}
+.m[提供货源] [商品列表] {
+	border-left: 1px solid #EEE;
+	height:400px;
+	margin-left: 394px;
+}
+.m[提供货源] [商品列表] ul {
+	margin-left: -20px;
+}
+.m[提供货源] [商品列表] li {
+	float: left;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 108px;
+}
+.m[提供货源] [商品列表] img {
+	margin-bottom: 15px;
+	width: 100%;
+}
+.m[提供货源] [商品列表] a {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.m[提供货源] [商品列表] p {
+	color: #3278F2;
+}
+.m[提供货源] [商品列表] del {
+	color: #333;
+	float: right;
+}
+.m[包装服务] {
+	float: left;
+	height: 418px;
+	width: 580px;
+}
+.m[包装服务] .h ul {
+	padding-right: 20px;
+}
+.m[包装服务] .h li {
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	color: #555;
+	margin-left: 4px;
+	padding: 0 10px;
+}
+.m[包装服务] .b ul {
+	margin: 20px 22px 16px;
+}
+.m[包装服务] .b li {
+	float: left;
+}
+.m[包装服务] .b li a {
+	display: block;
+	font-size: 14px;
+	line-height: 22px;
+	padding: 0 15px;
+}
+.m[包装服务] .b li.active a {
+	background-color: #3278F2;
+	color: #FFF;
+}
+.m[包装服务] .b img {
+	float: left;
+	margin-left: 20px;
+}
+.m[包装服务] .b dl {
+	height: 230px;
+	margin-left: 200px;
+	padding-top: 10px;
+}
+.m[包装服务] .b dt {
+	float: left;
+	width: 75px;
+}
+.m[包装服务] .b dd {
+	margin-left: 75px;
+}
+.m[包装服务] .b dd a {
+	border: 1px solid #DDD;
+	display: block;
+	float: left;
+	margin: 0 5px 5px 0;
+	padding: 4px 8px;
+}
+.m[包装服务] .b dd .more {
+	border: 0;
+	display: block;
+}
+.m[包装服务] .b button {
+	background-color: #006CE2;
+	border: 0;
+	border-radius: 3px;
+	color: #FFF;
+	display: block;
+	font-family: inherit;
+	font-size: 18px;
+	line-height: 40px;
+	margin: 0 auto;
+	width: 144px;
+}
+.m[快递服务] {
+	float: right;
+	font-size: 14px;
+	height: 418px;
+	width: 580px;
+}
+.m[快递服务] .h ul {
+	line-height: 36px;
+	margin-top: -3px;
+	padding-right: 8px;
+}
+.m[快递服务] .h li {
+	color: #555;
+	padding: 0 10px;
+}
+.m[快递服务] .h .active {
+	background-color: #027CFF;
+	color: #FFF;
+}
+.m[快递服务] .b table {
+	width: 100%;
+}
+.m[快递服务] .b thead tr {
+	background-color: #FAFAFA;
+	height: 45px;
+}
+.m[快递服务] .b thead span {
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	font-size: 12px;
+	margin-left: 10px;
+	padding: 0 10px;
+}
+.m[快递服务] .b tr {
+	border-bottom: 1px solid #EEE;
+	height: 40px;
+}
+.m[快递服务] .b td:first-child {
+	padding-left: 20px;
+	width: 520px;
+}
+.m[快递服务] .b .more {
+	line-height: 40px;
+	text-align: center;
+}
+a[许可证] img {
+	height: 40px;
+	width: 108px;
+}
